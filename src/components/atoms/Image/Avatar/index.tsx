@@ -10,11 +10,11 @@ export default function Avatar({ avatarUrl, ...props }: Props) {
       {({ isPressed }) => {
         return (
           <Box
-            padding={0.25}
+            padding={0.5}
             rounded="full"
             bg={{
               linearGradient: {
-                colors: ['#E2E2E2', '#FB3640', '#0A2463'],
+                colors: ['#000', '#FFF'],
               },
             }}
             style={{
@@ -31,7 +31,7 @@ export default function Avatar({ avatarUrl, ...props }: Props) {
               }}
               width={16}
               height={16}
-              rounded="full"
+              borderRadius={32}
               alt={`Avatar, Imagem de Perfil`}
               {...props}
             />

@@ -1,4 +1,5 @@
 import { Box } from 'native-base'
+import { View } from 'native-base'
 
 import Feed from '../../components/organisms/Feed'
 import Stories from '../../components/organisms/Stories'

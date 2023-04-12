@@ -7,7 +7,7 @@ interface Props {
 
 export default function Story({ avatarUrl }: Props) {
   return (
-    <Box flex={1} marginBottom={4} padding={2} rounded="sm">
+    <Box flex={1} padding={2} rounded="sm">
       <Avatar avatarUrl={avatarUrl} />
     </Box>
   )

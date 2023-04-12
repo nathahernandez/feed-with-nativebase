@@ -1,17 +1,11 @@
-import { Box, FlatList } from 'native-base'
+import { Box } from 'native-base'
 
-import { data } from '../../../mocks'
-import Story from '../../molecules/Story'
+import StoriesList from './StoriesList'
 
 export default function Stories() {
   return (
-    <Box alignItems="center">
-      <FlatList
-        horizontal
-        showsHorizontalScrollIndicator={false}
-        data={data}
-        renderItem={({ item }) => <Story avatarUrl={item.avatarUrl} />}
-      />
+    <Box flex={1.5}>
+      <StoriesList />
     </Box>
   )
 }
