@@ -12,7 +12,7 @@ export default function StoriesList() {
         showsHorizontalScrollIndicator={false}
         data={data}
         renderItem={({ item }) => <Story avatarUrl={item.avatarUrl} />}
-        estimatedItemSize={10}
+        estimatedItemSize={320}
       />
     </Box>
   )
