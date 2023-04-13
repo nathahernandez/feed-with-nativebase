@@ -9,7 +9,7 @@ export default function PostImage({ avatarUrl }: { avatarUrl: string }) {
       alt="Post image"
       width="2xl"
       height="32"
-      blurRadius={4}
+      blurRadius={2}
       rounded="xl"
     />
   )
